@@ -662,3 +662,34 @@ Remove or comment-out the code block below to see how the browser will fall-back
     margin: 0;
   }
 }
+
+
+.accordion {
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: black; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  width: 80%;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: Raleway;
+}
