@@ -530,6 +530,20 @@ a {
   }
 }
 
+h1 {
+  font-size: 8vw;
+  font-weight: 900;
+  font-family: 'Raleway', sans-serif;
+  flex: 1;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  -webkit-text-fill-color: transparent;
+  background-image: url("https://media.giphy.com/media/5ciuhhe0rQva8/giphy.gif");
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-repeat: no-repeat;
+}
 
 @import url("https://fonts.googleapis.com/css?family=Exo+2:900");
 h3 {
